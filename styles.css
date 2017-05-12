@@ -18,9 +18,9 @@
    }
 
  h1 {
-       margin: 0;
-       padding: 0;
-        }
+    margin: 0;
+    padding: 0;
+    }
 
 .main-header {
 	background-image: url(imgs/background.png);
@@ -28,9 +28,9 @@
 	color: white;
 	height: 100%;
 	width: 100%;
-}
+	}
 
-.navbar.navbar-default.row{
+.navbar.navbar-default.row {
 		margin-top: 10px; 
 		background-color: transparent ;
 		border: none;
@@ -90,11 +90,46 @@
 /* HEADER styles end */
 
 
-.tree {
-	float: right;
-	height: 250px;
-	width: 350px;
+/* PROMO styles begin*/
+
+.promo-container.row {
+	margin-top: 30px;
+	vertical-align: middle;
+}
+
+.promo-container.row {
+	padding: 60px 120px 60px 120px;
+}
+
+.promo-container.row:last-child {
+	background-color: #f0f0f0;
+}
+
+.promo-container.row h3{
+	font-size: 46px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	vertical-align: middle;
+}
+
+.promo-container.row p {
+	padding-bottom: 10px;
 }
 
 
+.tree {
+	background-color: transparent;
+	float: right;
+	width: 330px;
+	height: 250px;
+}
+/* PROMO styles end*/
 
+
+
+/* DIRECTION styles begin*/
+
+.direction .container {
+padding: 60px 120px 60px 120px;
+}
+/* DIRECTION styles end*/
