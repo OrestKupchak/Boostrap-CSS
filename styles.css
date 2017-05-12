@@ -92,6 +92,7 @@
 
 /* PROMO styles begin*/
 
+
 .promo-container.row {
 	margin-top: 30px;
 	vertical-align: middle;
@@ -102,10 +103,12 @@
 }
 
 .promo-container.row:last-child {
-	background-color: #f0f0f0;
+	background-color: #FAFAFA;
+
 }
 
 .promo-container.row h3{
+	font-family: "Brandon Grotsque";
 	font-size: 46px;
 	margin-top: 30px;
 	margin-bottom: 40px;
@@ -114,14 +117,13 @@
 
 .promo-container.row p {
 	padding-bottom: 10px;
+	font-family: "BrandonGrotsque";
 }
 
 
 .tree {
 	background-color: transparent;
 	float: right;
-	width: 330px;
-	height: 250px;
 }
 /* PROMO styles end*/
 
@@ -137,11 +139,18 @@ padding: 60px 120px 60px 120px;
 	float: left;
 	width: 80px;
 	height: 80px;
-	background: black;
+	background-color: black;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 	margin-right: 20px;
+	position: relative;
+}
+
+.circle-icon img {
+	position: absolute;
+	top: 20%;
+	left: 25%;
 }
 
 .dir-item {
@@ -156,7 +165,7 @@ padding: 60px 120px 60px 120px;
 
 /*CLIENTS styles begin*/
 .testimonials {
-	background-color: #f0f0f0;
+	background-color: #FAFAFA;;
 }
 
 .testimonials .page-header {
@@ -191,7 +200,7 @@ padding: 60px 120px 60px 120px;
 
 /*TEAM styles begin*/
 .team {
-	background-color: #1c1c1c;
+	background-color: #111111;
 	color: white;
 }
 .team .container {
@@ -222,3 +231,39 @@ padding: 60px 120px 60px 120px;
 }
 
 /*TEAM styles end*/
+
+footer {
+background-color: #7690c5;
+color: white;
+}
+
+.social {
+	list-style: none;
+	display: inline-block;
+}
+
+.social li {
+	float: left;
+	width: 30px;
+	height: 30px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	border: 3px solid white;
+	margin-right: 20px;
+}
+
+
+
+.contacts {
+	list-style: none;
+}
+
+.contact > li {
+	margin-top: 10px;
+}
+
+
+.form-group {
+	width: 400px;
+}
