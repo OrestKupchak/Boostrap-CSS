@@ -1,0 +1,100 @@
+ /* HEADER styles begin */
+@font-face {
+    font-family: "BrandonGrotsque Bold"; /* Имя шрифта */
+    src: url(fonts/brandon-grotesque-bold.otf); /* Путь к файлу со шрифтом */
+   }
+
+ @font-face {
+    font-family: "BrandonGrotsque Light"; /* Имя шрифта */
+    src: url(fonts/brandon-grotesque-light.otf); /* Путь к файлу со шрифтом */
+   }
+ @font-face {
+    font-family: "Cubano Regular"; /* Имя шрифта */
+    src: url(fonts/Cubano-Regular.otf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: "Myriad Pro regular"; /* Имя шрифта */
+    src: url(fonts/Myriad Pro regular.otf); /* Путь к файлу со шрифтом */
+   }
+
+ h1 {
+       margin: 0;
+       padding: 0;
+        }
+
+.main-header {
+	background-image: url(imgs/background.png);
+	background-size: cover;
+	color: white;
+	height: 100%;
+	width: 100%;
+}
+
+.navbar.navbar-default.row{
+		margin-top: 10px; 
+		background-color: transparent ;
+		border: none;
+		padding-top: 20px;
+		padding-bottom: 120px;
+		color: white;
+		font-family: "Myriad Pro regular";
+	}
+
+.navbar-brand span:last-child{
+		letter-spacing: 0.15em;
+}
+.navbar.navbar-default.row a {
+	color: white;
+	}
+
+.btn {
+		width: 240px;
+		height: 65px;
+		background-color: transparent ;
+		padding:20px 60px;
+		font-weight: bolder;
+		color: white;
+		border: 3px solid white;
+		margin-top: 60px;
+	}
+
+.btn:hover {
+	background-color: transparent;
+	font-weight: bolder;
+	color: white;
+	border: 3px solid white;
+	filter: brightness(70%);
+	filter: opacity(60%);
+}
+
+.jumbotron  {
+	margin-top: 50px;
+	margin-bottom: 200px;
+	background-color: transparent;
+	padding:10px 40px;
+	text-align: center;
+	vertical-align: middle;
+
+}
+.jumbotron h1 {
+	font-family: "BrandonGrotsque Bold";
+}
+
+.jumbotron h4 {
+	font-family: "BrandonGrotsque Light";
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+
+/* HEADER styles end */
+
+
+.tree {
+	float: right;
+	height: 250px;
+	width: 350px;
+}
+
+
+
