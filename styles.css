@@ -132,4 +132,93 @@
 .direction .container {
 padding: 60px 120px 60px 120px;
 }
+
+.circle-icon {
+	float: left;
+	width: 80px;
+	height: 80px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin-right: 20px;
+}
+
+.dir-item {
+	padding: 20px 20px 20px 20px;
+}
+
+.dir-item h4 {
+	font-weight: bold;
+}
+
 /* DIRECTION styles end*/
+
+/*CLIENTS styles begin*/
+.testimonials {
+	background-color: #f0f0f0;
+}
+
+.testimonials .page-header {
+	vertical-align: middle;
+	text-align: center;
+	padding: 30px 0px 20px 0px;
+}
+
+.testimonials .page-header h3{
+	font-size: 40px;
+	font-weight: normal;
+}
+
+.testimonials .page-header span{
+	font-size: 14px;
+	font-weight: normal;
+	color: grey;
+}
+
+.img-circle {
+	float: left;
+	width: 180px;
+	height: 180px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	margin-right: 20px;
+
+}
+
+/*CLIENTS styles end*/
+
+/*TEAM styles begin*/
+.team {
+	background-color: #1c1c1c;
+	color: white;
+}
+.team .container {
+	padding: 40px 70px 40px 70px;
+}
+
+.team .page-header {
+	vertical-align: middle;
+	text-align: center;
+	padding: 0px 0px 40px 0px;
+}
+
+
+.team .page-header h3{
+	font-size: 40px;
+	font-weight: normal;
+}
+
+.team .page-header span{
+	font-size: 14px;
+	font-weight: normal;
+	color: grey;
+}
+
+
+.team .img-circle {
+	border: 6px white solid;
+}
+
+/*TEAM styles end*/
